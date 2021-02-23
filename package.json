@@ -1,8 +1,12 @@
 {
   "name": "@acme/adapter-change_management",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An IAP change management adapter.",
   "main": "main.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/chuck1yeager/adapter-change_management/issues"
   },
-  "homepage": "https://github.com/chuck1yeager/adapter-change_management#readme",
-  "dependencies": {
-    "request": "^2.88.2"
-  }
+  "homepage": "https://github.com/chuck1yeager/adapter-change_management#readme"
 }
